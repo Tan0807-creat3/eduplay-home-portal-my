@@ -4,7 +4,7 @@ import { createFileRoute } from "@tanstack/react-router";
 // text-brand-purple text-brand-orange text-brand-pink text-brand-green text-brand-yellow
 // bg-brand-purple/10 bg-brand-orange/10 bg-brand-pink/10 bg-brand-green/10
 // bg-brand-purple/15 bg-brand-orange/15 bg-brand-pink/15 bg-brand-green/15
-import logo from "@/assets/eduplay-logo.png.asset.json";
+import logo from "../assets/eduplay-logo.ico?url";;
 
 const DOWNLOAD_URL =
   "https://github.com/Tan0807-creat3/EduPlay-Studio/releases/download/v1.0.0-rc2/EduPlay-Studio-v1.0.0-Setup.exe";
@@ -54,7 +54,7 @@ function Nav() {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src={logo.url} alt="EduPlay Studio" className="h-9 w-9" />
+          <img src={logo} alt="EduPlay Studio" className="h-9 w-9" />
           <span className="font-display font-bold tracking-tight">EDUPLAY STUDIO</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
@@ -132,7 +132,7 @@ function Hero() {
             <div className="p-8">
               <div className="text-center">
                 <div className="inline-flex items-center gap-2 mb-2">
-                  <img src={logo.url} alt="" className="h-8 w-8" />
+                  <img src={logo} alt="" className="h-8 w-8" />
                   <span className="font-display font-bold text-lg">EduPlay Studio</span>
                 </div>
                 <p className="text-3xl font-display font-bold text-gradient-brand">EDUPLAY STUDIO</p>
@@ -517,7 +517,7 @@ function DownloadCTA() {
           <div className="relative hidden lg:block">
             <div className="rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 p-6">
               <div className="flex items-center gap-3">
-                <img src={logo.url} alt="" className="h-12 w-12 rounded-xl bg-white/90 p-1.5" />
+                <img src={logo} alt="" className="h-12 w-12 rounded-xl bg-white/90 p-1.5" />
                 <div>
                   <div className="font-display font-bold text-lg">EduPlay-Studio-v1.0.0-Setup.exe</div>
                   <div className="text-sm text-white/80">Windows • ~ vài trăm MB</div>
@@ -542,7 +542,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2.5">
-            <img src={logo.url} alt="" className="h-9 w-9" />
+            <img src={logo} alt="" className="h-9 w-9" />
             <span className="font-display font-bold tracking-tight">EDUPLAY STUDIO</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
