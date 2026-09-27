@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# EduPlay Studio — ứng dụng tạo trò chơi giáo dục
+# Từ khóa: tạo trò chơi chèn vào ppt, ứng dụng tạo trò chơi, phần mềm tạo trò chơi giáo dục,
+# game giáo dục, tạo quiz, trò chơi ôn tập, AI tạo câu hỏi, nhúng PowerPoint, EduPlay Studio
+
+Sitemap: https://eduplay-home.lovable.app/sitemap.xml
